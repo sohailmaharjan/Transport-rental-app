@@ -1,0 +1,4 @@
+#Thu Jul 11 13:30:36 NPT 2019
+base.0=/home/cod/Desktop/android_final_project/stw300cem-final-project-spk1999/wearos/build/intermediates/transforms/dexMerger/debug/10
+path.0=classes.dex
+renamed.0=classes.dex

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    tools:context=".RegistrationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="15dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="sans-serif-medium"
+                android:text="Vehicle Rental"
+                android:textAlignment="viewStart"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/textColor"
+                android:textSize="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:text="Please enter your credential to create your new account"
+                android:textAlignment="viewStart"
+                android:textSize="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/etrfname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_design"
+                    android:hint="First name"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:drawableTint="#c2c0bf"
+                    android:inputType="text"
+                    android:layout_marginRight="7dp"
+                    android:textSize="13dp" />
+
+                <EditText
+                    android:id="@+id/etrlname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/edit_design"
+                    android:hint="Last Name"
+                    android:inputType="text"
+                    android:padding="10dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="7dp"
+                    android:drawableTint="#c2c0bf"
+                    android:textSize="13dp" />
+
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/etremail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_design"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:drawableTint="#c2c0bf"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etrpwd"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_design"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:drawableTint="#c2c0bf"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etaddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_design"
+                android:hint="Address"
+                android:padding="10dp"
+                android:drawableTint="#c2c0bf"
+                android:inputType="text"
+                android:textSize="13dp" />
+
+            <EditText
+                android:id="@+id/etrnumber"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edit_design"
+                android:hint="Phone number"
+                android:inputType="number"
+                android:padding="10dp"
+                android:drawableTint="#c2c0bf"
+                android:textSize="13dp" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:id="@+id/btnlogins"
+                android:background="@drawable/auth_button"
+                android:layout_marginTop="30dp"
+                android:textColor="@color/white"
+                android:padding="12dp"
+                android:textSize="13dp"
+                android:textAllCaps="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Already a member? "
+                    android:textSize="16dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtLogin"
+                    android:clickable="true"
+                    android:text="Click to Login"
+                    android:textSize="16dp"
+                    android:textStyle="bold"
+                    android:paddingLeft="7dp"
+                    android:textColor="@color/cardColor"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
